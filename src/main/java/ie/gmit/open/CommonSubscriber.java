@@ -65,9 +65,8 @@ public class CommonSubscriber {
     public void setBaseRate(int baseRate) {
         this.baseRate = baseRate;
     }
+}
 
-    public double calculateBill() {
-        return 0;
-    }
-
+abstract class CalculateBill {
+    abstract double calculateBill();
 }
