@@ -66,4 +66,8 @@ public class CommonSubscriber {
         this.baseRate = baseRate;
     }
 
+    public double calculateBill() {
+        return 0;
+    }
+
 }
